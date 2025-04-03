@@ -1,0 +1,114 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Registro | Conquer Academy</title>
+  <meta name="description" content="Registro en Conquer Academy">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+  <header>
+    <figure>
+      <img width="150px" src="img/logo.avif" alt="Conquer Academy Logo" class="logo">
+    </figure>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quienes-somos.html">Quiénes somos</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="registro.html">Registro</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Registrate en Conquer Academy</h1>
+      <p>Registrate aqui para empezar a formarte con Conquer Academy</p>
+    </section>
+    <section>
+      <form action="registro.php" method="POST">
+        <p>
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" name="nombre" required> 
+        </p>
+        <p>
+          <label for="fecha">Fecha de nacimiento:</label>
+          <input type="date" id="fecha" name="fecha" required>
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="contraseña">Contraseña:</label>
+          <input type="password" id="contraseña" name="contraseña" required>
+        </p>
+        <p>
+          <label for="direccion">Dirección:</label>
+          <input type="text" id="direccion" name="direccion" required>
+        </p>
+        <p>
+          <label for="web">Página Web:</label>
+          <input type="url" id="web" name="web">
+        </p>
+        <p>
+          <label for="foto">Fotográfia:</label>
+          <input type="file" id="foto" name="foto" accept="image/*">
+        </p>
+        <p>
+          <label for="biografia">Biografía:</label>
+          <textarea id="biografia" name="biografia" rows="4" required></textarea>
+        </p>
+        <p>
+          <button type="submit">Registrarse</button>
+        </p>
+      </form>
+    </section>
+    <section>
+      <h2>¿Ya tienes una cuenta?</h2>
+      <p><a href="login.html">Inicia sesión aquí</a></p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Conquer Academy. Todos los derechos reservados.</p>
+    <p>Desarrollado por Alejandro Herrera Molina</a></p>
+  </footer>
+
+</body>
+
+</html>
