@@ -58,15 +58,30 @@
   <main>
     <section>
       <h1>Inicia sesión en Conquer Academy</h1>
-      <p>Disfruta de nuestros cursos iniciando sesión</p>
       <figure>
         <img src="img/Full-Stack-Conquer-Blocks.avif" alt="Imagen de Conquer Academy">
       </figure>
+      <p>Disfruta de nuestros cursos iniciando sesión</p>
+        <form action="registro.php" method="POST" enctype="multipart/form-data">
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+          </p>
+          <p>
+            <label for="password">Contraseña:</label>
+            <input type="password" name="password" id="password" required>
+          </p>
+          <p>
+            <button type="submit">Iniciar sesión</button>
+          </p>
+        </form>
+        <p>¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a></p>
     </section>
   </main>
   <footer>
     <p>&copy; 2023 Conquer Academy. Todos los derechos reservados.</p>
     <p>Desarrollado por Alejandro Herrera Molina</a></p>
+    <p><a href="aviso-legal.html">Aviso legal</a></p>
   </footer>
 
 </body>
